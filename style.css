@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222;
+    font-family: sans-serif;
+    color: #eee;
+}
+
+#name-entry {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#name-entry label {
+    margin-right: 5px;
+}
+
+#name-entry input {
+    padding: 5px;
+}
+
+#name-entry button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#game-container {
+    width: 256px;
+    /* Match canvas width */
+    height: 512px;
+    /* Match canvas height */
+    border: 1px solid #555;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    /* Add a slight glow */
+}
+
+canvas {
+    display: block;
+    /* Remove extra space below canvas */
+    background-color: #000;
+    /* Black background for the canvas */
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 0 0 5px #0ff;
+}

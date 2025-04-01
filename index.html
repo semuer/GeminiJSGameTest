@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>最终幻想乱炖搞笑RPG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>最终幻想乱炖搞笑RPG (概念演示)</h1>
+
+    <div id="name-entry">
+        <label for="playerName">输入你的大名：</label>
+        <input type="text" id="playerName" maxlength="10">
+        <button id="startGame">开始冒险！</button>
+    </div>
+
+    <div id="game-container" style="display: none;">
+        <canvas id="gameCanvas" width="256" height="512"></canvas>
+    </div>
+
+<script src="content.js"></script>
+<script src="engine.js"></script>
+</body>
+</html>
